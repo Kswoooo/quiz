@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="stage.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="question-box">
+        <div class="count-box">
+          <p class="count-wrap">
+            <span id="count"></span>
+            <span id="endCount"></span>
+          </p>
+          <p id="genre" class="genre"></p>
+        </div>
+
+        <p id="question" class="question"></p>
+
+        <p id="hint" class="hint"></p>
+
+        <p id="hintBtn" class="hint-btn">힌트 보기</p>
+      </div>
+      <!-- <div class="btn-box">
+        <div class="prev-btn">이전 문제</div>
+        <div class="show-hint-btn">힌트 보기</div>
+      </div> -->
+      <div class="result-box">
+        <input
+          id="resultText"
+          class="input"
+          type="text"
+          placeholder="정답을 입력해주세요!"
+        />
+        <div id="resultBtn" class="result-btn">제출</div>
+      </div>
+    </section>
+    <script src="stage.js" type="module"></script>
+  </body>
+</html>
